@@ -1,10 +1,13 @@
-npm install express --save
+# Express Blog
 
+```
+npm install
+```
 
-npm install ejs --save
+```
+mongod
+```
 
-
-mkdir views
-
-
-touch views/index.html
+```
+node app.js
+```
