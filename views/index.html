@@ -1,0 +1,13 @@
+<html>
+<head></head>
+<body>
+    <h1>Node Blog</h1>
+    <% for(var i=0; i < posts.length; i++) { %>
+    <h1><%= posts[i].author %></h1>
+    <p><%= posts[i].title %></p>
+    <p><%= posts[i].description %></p>
+    <% } %>
+
+    <h3><a href="/addpost">Add Post</a></h3>
+</body>
+</html>
